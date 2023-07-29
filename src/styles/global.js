@@ -16,7 +16,7 @@ body {
 
 }
 
-body, input, button, textarea, p {
+body, input, button, textarea, p, span,  {
 font-family: 'Roboto Slab', serif;
 font-size: 16px;
 outline: none;

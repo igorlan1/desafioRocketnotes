@@ -11,6 +11,10 @@ grid-template-areas:
 "header" 
 "content";
 
+> main {
+overflow-y: scroll
+} ;
+
  Section {
     padding-bottom:156px ;
     h2 {
@@ -19,7 +23,9 @@ grid-template-areas:
     };
     p {
         text-align: justify;
-    }
+    };
+
+    
 
 };
 

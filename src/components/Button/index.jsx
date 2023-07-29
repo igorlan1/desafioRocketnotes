@@ -2,7 +2,7 @@
 import { Container } from "./styles"
 
 
-export function Button({ title, loading= false, ...rest }) {
+export function Button({ title, loading= false, children, ...rest }) {
     return (
         <Container 
         type="button"
@@ -10,6 +10,7 @@ export function Button({ title, loading= false, ...rest }) {
         {...rest}
          >
         {loading ? "carregando..." : title}
+        {children}
         </Container>
         )
 }
