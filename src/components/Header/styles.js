@@ -1,5 +1,8 @@
 import styled from "styled-components"
 
+// to keep the Header fixed in the screen, add height:100vh in the Container 
+// of the page together other props .
+
 export const Container = styled.header`
 grid-area: header;
 
