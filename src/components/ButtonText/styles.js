@@ -15,6 +15,7 @@ transition: 0.5s;
 svg {
     margin-right: 8px;
     vertical-align: middle;
+    font-size: 16px;
 }
 
 `
