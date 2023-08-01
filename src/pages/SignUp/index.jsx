@@ -6,7 +6,7 @@ import { ButtonText } from "../../components/ButtonText"
 import { FiUser, FiMail, FiLock, FiCamera } from "react-icons/fi"
 
 
-export function SignIn() {
+export function SignUp() {
 return( 
 <Container>
 <box>
@@ -16,7 +16,13 @@ return(
 <p>Aplicacoes para acompanhar tudo o que assistir</p>
 </span>
 
-<h2>Faça seu Login</h2>
+<h2>Crie sua conta</h2>
+
+<Input
+type="text"
+placeholder="nome"
+icon={FiUser}
+/>
 
 <Input
 type="Mail"
@@ -31,11 +37,11 @@ icon={FiLock}
 />
 
 <Button
-title="Entrar"
+title="Cadastrar"
 />
 
 <ButtonText
-title="criar conta"
+title="Voltar para o login"
 className="buttontext"
 />
 
