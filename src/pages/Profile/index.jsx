@@ -1,6 +1,8 @@
 import { Container } from "./styles"
 import {AiTwotoneStar, AiOutlineStar} from "react-icons/ai";
 
+import { Link } from "react-router-dom"
+
 import { ButtonText } from "../../components/ButtonText"
 import { FiUser, FiMail, FiLock, FiCamera } from "react-icons/fi"
 import {Button} from "../../components/Button"
@@ -10,10 +12,10 @@ export function Profile() {
     return(
         <Container>
       <header>
-<a href="#">
+<Link to="/">
         <ButtonText title="Voltar " />
 
-</a>
+</Link>
         
 
       </header>

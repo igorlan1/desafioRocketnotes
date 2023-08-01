@@ -35,11 +35,16 @@ width: 340px;
         h2 {
               margin:48px 0  ;
         }
-        
+        a {
+display: grid;
+        }
+
        Button svg {
         display: none;
        }
        .buttontext {
+        align-self:center;
+        
         margin-top: 42px;
        }
 

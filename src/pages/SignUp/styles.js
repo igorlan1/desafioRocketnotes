@@ -36,7 +36,9 @@ width: 340px;
               margin:48px 0  ;
         }
         
-      
+      a {
+        display: grid;
+      }
        .buttontext {
         margin-top: 42px;
        }

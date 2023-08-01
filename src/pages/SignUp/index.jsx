@@ -1,5 +1,7 @@
 import { Container, Form, Background } from "./styles";
 
+import { Link } from "react-router-dom"
+
 import {Input} from "../../components/Input"
 import { Button } from "../../components/Button"
 import { ButtonText } from "../../components/ButtonText" 
@@ -40,10 +42,13 @@ icon={FiLock}
 title="Cadastrar"
 />
 
+<Link to="/">
+
 <ButtonText
 title="Voltar para o login"
 className="buttontext"
 />
+</Link>
 
 </Form>
 </box>

@@ -1,4 +1,7 @@
 import { Container, Input, Textarea } from "./styles"
+
+import { Link } from "react-router-dom"
+
 import { Header } from "../../components/Header"   
 import {ButtonText} from "../../components/ButtonText"
 import {Section} from "../../components/Section"
@@ -12,7 +15,9 @@ export function New () {
 
 <main>
     <box>
+        <Link to="/">
 <ButtonText title="voltar"/>
+        </Link>
     </box>
 
 

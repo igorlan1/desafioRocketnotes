@@ -1,4 +1,7 @@
 import { Container, Links, Title } from "./styles";
+
+import { Link } from "react-router-dom"
+
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
 import { Button } from "../../components/Button"
@@ -12,9 +15,11 @@ export function Home() {
             <Title>
 
             <h1>Meus filmes</h1>
+            <Link to="/new">
 <Button >
       <AiOutlinePlus/> <span>Adicionar filmes</span>
 </Button>
+            </Link>
             </Title>
       
       <Summary title="Interestellar">

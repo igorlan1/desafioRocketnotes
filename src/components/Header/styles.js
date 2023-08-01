@@ -1,5 +1,6 @@
 import styled from "styled-components"
 
+
 // to keep the Header fixed in the screen, add height:100vh in the Container 
 // of the page together other props .
 
@@ -24,7 +25,8 @@ export const Profile = styled.div`
 display: flex;
 align-items: center;
 
-> img {
+
+ img {
     width: 64px;
     height: 64px;
     border-radius: 50%;
